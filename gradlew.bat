@@ -1,3 +1,3 @@
 @echo off
-REM Placeholder gradlew.bat script
-exit /B 0
+REM Simple gradle wrapper delegating to installed Gradle
+gradle %*

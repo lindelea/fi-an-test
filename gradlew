@@ -1,3 +1,3 @@
 #!/bin/sh
-# Placeholder gradlew script
-exit 0
+# Simple gradle wrapper delegating to installed Gradle
+exec gradle "$@"
